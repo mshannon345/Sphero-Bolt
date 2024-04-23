@@ -5,6 +5,7 @@
 //Program: Hello World - Sandbox
 //Program URL:https://edu.sphero.com/program/16700410/edit
 
+/*
 async function startProgram() {
 
 	setMainLed({ r: 5, g: 24, b: 236 });
@@ -15,5 +16,9 @@ async function startProgram() {
 		await Sound.Effects.Laser.play(true);
 		await roll((getHeading() + 90), 60, 1);
 		await delay(1);
+
+}
+*/
+async function startProgram() {
 
 }
