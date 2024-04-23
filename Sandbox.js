@@ -20,5 +20,7 @@ async function startProgram() {
 }
 */
 async function startProgram() {
-
+	await roll(0, 40, 2)
+	await 2 
+	await roll (-180, 40,2)
 }
