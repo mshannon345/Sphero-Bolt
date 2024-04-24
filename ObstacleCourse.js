@@ -9,4 +9,8 @@
 async function startProgram() {
 	await roll( 80, 80, 2),
 	await delay(1);
+
+//Miles Shannon Checkpoint 2
+	await roll(-25, 94 , 2),
+	await delay(1);
 }
