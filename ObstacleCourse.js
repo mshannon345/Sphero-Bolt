@@ -18,4 +18,10 @@ async function startProgram() {
 	setMainLed({ r: 255, g: 0, b: 255 }),
 		await roll (-152, 83, 2),
 		await delay(1);
+
+//Billy Felton - PC#30 - Checkpoint 4 - Red & Audio
+await speak("At the light, turn left", true),
+	setMainLed({ r: 255, g: 0, b: 0 }),
+		await roll (87, 120, 2),
+		await delay(1);
 }
