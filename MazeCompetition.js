@@ -12,7 +12,10 @@ async function startProgram() {
 		
 
 
-	//Programmer: - Blue LED Checkpoint Date:
+	// Programmer: Miles Shannon - Blue LED Checkpoint Commit - Date: 4.30.24
+			await roll (0, 72, 2),
+			await delay(1),
+		setMainLed({ r: 0, g: 0, b: 255 });
 
 
 
