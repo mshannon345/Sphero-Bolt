@@ -19,7 +19,11 @@ async function startProgram() {
 
 
 
-	//Programmer: - Sound One Checkpoint Commit - Date:
+	// Programmer: Billy Felton - Sound One Checkpoint Commit - Date: 5.1.24
+			await roll (90, 55, 2),
+			await delay(1),
+			await Sound.Effects.Laser.play(true);
+
 
 
 
