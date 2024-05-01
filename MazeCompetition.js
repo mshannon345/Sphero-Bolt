@@ -26,9 +26,12 @@ async function startProgram() {
 
 
 
-
-	//Programmer: -Red LED Checkpoint Date:
-
+	// Programmer: Miles Shannon - Red LED Checkpoint Commit - Date: 5.1.24
+			await roll((getHeading() + 90), 40, 2),
+			await delay(1),
+			await roll((getHeading() + 30), 39 , 2),
+			await delay(1),
+		setMainLed({ r: 255, g: 0, b: 0 });
 
 
 	//Programmer: -Sound Two Checkpoint Commit - Date:
