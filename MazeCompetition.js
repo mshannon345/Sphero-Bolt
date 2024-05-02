@@ -1,15 +1,14 @@
-//Programmer: Miles Shannon
-//Team Member: Billy Felton
-////Bolt ID:SB-52F9
-//Date: 4.30.24
+//Programmer: Billy Felton
+//Team Member: Miles Shannon
+//Bolt ID: SB-52F9
+//Date: 4.23.2024
 //Program: Maze Competition
-//Program URL:https://edu.sphero.com/program/16788324/edit
+//Program URL: https://edu.sphero.com/program/16788325/edit
 
 async function startProgram() {
-	//Programmer: Billy Felton - Start Text & Audio Chackpoint Commit - Date: 4.30.24 
-		await scrollMatrixText('Start!', { r: 66, g: 56, b: 255 }, 15, true)
-		await speak("Start", true),
-		
+	// Programmer: Billy Felton - Start Text & Audio Commit - Date: 
+		await scrollMatrixText('Start!', { r: 66, g: 56, b: 255 }, 15, true),
+		await speak("Start", true);
 
 
 	// Programmer: Miles Shannon - Blue LED Checkpoint Commit - Date: 4.30.24
@@ -19,34 +18,36 @@ async function startProgram() {
 
 
 
-	// Programmer: Billy Felton - Sound One Checkpoint Commit - Date: 5.1.24
-			await roll (90, 55, 2),
+	// Programmer: Billy Felton - Sound One Checkpoint Commit - Date:5.1.24
+			await roll (90, 51, 2),
 			await delay(1),
 			await Sound.Effects.Laser.play(true);
-
 
 
 	// Programmer: Miles Shannon - Red LED Checkpoint Commit - Date: 5.1.24
 			await roll((getHeading() + 90), 40, 2),
 			await delay(1),
-			await roll((getHeading() + 30), 39 , 2),
+			await roll((getHeading() + 40), 39, 2),
 			await delay(1),
 		setMainLed({ r: 255, g: 0, b: 0 });
 
 
-	//Programmer: -Sound Two Checkpoint Commit - Date:
+
+	// Programmer: Billy Felton - Sound Two Checkpoint Commit - Date: 5.2.24
+			await roll((getHeading() - 90), 21, 2),
+			await delay(1),
+			await roll((getHeading() - 85), 40, 2),
+			await delay(1),
+			await roll((getHeading() + 85), 23, 2),
+			await Sound.Effects.Explosion.play(true);
+	
+	// Programmer:  - Green LED Checkpoint Commit - Date:
 
 
 
-	//Programmer: -Green LED Checkpoint Date:
+	// Programmer:  - Purple LED & Sound Three Checkpoint Commit - Date:
 
 
 
-	//Programmer: -Purple LED & Sound Three Checkpoint Date:
-
-
-
-	//Programmer: -Text and Audio Commit - Date
-
-
+	// Programmer:  - Finish Text & Audio Commit - Date:
 }
