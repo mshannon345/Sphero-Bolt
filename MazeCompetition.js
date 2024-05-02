@@ -41,7 +41,7 @@ async function startProgram() {
 			await roll((getHeading() + 85), 23, 2),
 			await Sound.Effects.Explosion.play(true);
 	
-	// Programmer:  - Green LED Checkpoint Commit - Date: 5.2.24
+	// Programmer: Miles Shannon - Green LED Checkpoint Commit - Date: 5.2.24
 			await roll((getHeading() + 62) , 28, 2),
 			await delay(1),
 			setMainLed({ r: 0, g: 255, b: 0 });
