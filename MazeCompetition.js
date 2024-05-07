@@ -58,7 +58,9 @@ async function startProgram() {
 			setMainLed({ r: 255, g: 0, b: 255 }),
 			await Sound.Effects.Applause.play(true);
 
-
-
-	// Programmer:  - Finish Text & Audio Commit - Date:
+	
+	// Programmer: Miles Shannon - Finish Text & Audio Commit - Date:
+		await roll ((getHeading() + 40) , 35, 2),
+		await scrollMatrixText('Finish!', { r: 66, g: 56, b: 255 }, 15, true),
+		await speak("Finish", true);
 }
