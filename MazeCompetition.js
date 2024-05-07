@@ -34,26 +34,26 @@ async function startProgram() {
 
 
 	// Programmer: Billy Felton - Sound Two Checkpoint Commit - Date: 5.2.24
-			await roll((getHeading() - 90), 23, 2),
+			await roll((getHeading() - 90), 29, 2),
 			await delay(1),
-			await roll((getHeading() - 90), 43, 2),
+			await roll((getHeading() - 90), 40, 2),
 			await delay(1),
-			await roll((getHeading() + 85), 23, 2),
+			await roll((getHeading() + 85), 27, 2),
 			await Sound.Effects.Explosion.play(true);
 	
-	// Programmer:  Miles Shann- Green LED Checkpoint Commit - Date: 4.2.24
-			await roll((getHeading() + 90) , 28, 2),
+	// Programmer:  Miles Shann- Green LED Checkpoint Commit - Date: 5.2.24
+			await roll((getHeading() + 90) , 31, 2),
 			await delay(1),
 			setMainLed({ r: 0, g: 255, b: 0 });
 
 
 
-	// Programmer: Billy Felton - Purple LED & Sound Three Checkpoint Commit - Date:
-			await roll((getHeading() - 90) , 26, 2),
+	// Programmer: Billy Felton - Purple LED & Sound Three Checkpoint Commit - Date: 5.7.24
+			await roll((getHeading() - 90) , 36, 2),
 			await delay(1),
 			await roll((getHeading() - 90) , 40, 2),
 			await delay(1),
-			await roll((getHeading() - 40) , 23, 2),
+			await roll((getHeading() - 40) , 34, 2),
 			await delay(1),
 			setMainLed({ r: 255, g: 0, b: 255 }),
 			await Sound.Effects.Applause.play(true);
